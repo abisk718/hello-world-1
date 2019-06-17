@@ -1,15 +1,28 @@
 # hello-world-1
-just other repository
-public class MyFirstClass {
+just other repositorypublic class SwitchExam {
 
-	public static void main(String[]arg)
-	{
-	int i=2; 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int j=2;
+switch(j) {
+case 0:
 	
-	if(i<=100) {
+ System.out.println("j value is one");
+ break;
+case 1:
+	
+	 System.out.println("j value is two");
+	 break;
+	 case 2:
 			
-	System.out.println(" check i values");
-	}
-	
-	}
+		 System.out.println("j value is three");
+		 break;
+		 default:
+			 
+			 System.out.println("default value");
+			 break;
 }
+	}
+
+}
+
